@@ -137,7 +137,7 @@
             input1.Margin = new Padding(5);
             input1.Name = "input1";
             input1.PlaceholderText = "qwen1_5-14b-chat-q4_0.gguf";
-            input1.Size = new Size(489, 35);
+            input1.Size = new Size(494, 35);
             input1.TabIndex = 0;
             // 
             // buttonOpen
@@ -147,10 +147,10 @@
             buttonOpen.Dock = DockStyle.Right;
             buttonOpen.Ghost = true;
             buttonOpen.JoinLeft = true;
-            buttonOpen.Location = new Point(489, 0);
+            buttonOpen.Location = new Point(494, 0);
             buttonOpen.Margin = new Padding(5);
             buttonOpen.Name = "buttonOpen";
-            buttonOpen.Size = new Size(49, 35);
+            buttonOpen.Size = new Size(44, 35);
             buttonOpen.TabIndex = 1;
             buttonOpen.Text = "选择";
             buttonOpen.Click += buttonOpen_Click;
@@ -164,7 +164,7 @@
             divider2.Orientation = AntdUI.TOrientation.Left;
             divider2.Size = new Size(544, 23);
             divider2.TabIndex = 3;
-            divider2.Text = "Modelfile";
+            divider2.Text = "对话模板";
             // 
             // divider1
             // 
